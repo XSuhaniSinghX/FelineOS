@@ -62,17 +62,6 @@ qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L "C:\Program Files\qemu"
 qemu-system-x86_64 -cdrom dist/x86_64/kernel.iso -L /usr/share/qemu/
 ```
 
-## 🧹Cleanup
-
-To remove the Docker build environment image:
-
-```
-docker rmi felineos-buildenv -f
-
-```
-
-
-
 
 **P.S.:** If you find any expert coding in here, please let me know. It means I accidentally copied from the wrong tutorial. :nerd_face:
 
